@@ -10,30 +10,28 @@
         "d": "Microwave"
       },
       "explanations": {
-        "a": "Only surface inspection.",
-        "b": "Correct method for internal strain and defects.",
-        "c": "Used for cracks, not strain measurement.",
-        "d": "Not used in inspection."
+        "a": "Visual inspection cannot detect internal strain.",
+        "b": "Ultrasound is commonly used for internal defect and strain analysis.",
+        "c": "X-ray is mainly used for internal cracks.",
+        "d": "Microwave is not commonly used."
       },
-      "correctAnswer": "b",
-      "difficulty": "intermediate"
+      "correctAnswer": "b"
     },
     {
       "question": "The joining technique which does not require accessories along with it:",
       "answers": {
         "a": "Screwed joint",
         "b": "Rivet joint",
-        "c": "Bolted joint",
+        "c": "Bolted Joint",
         "d": "None of these"
       },
       "explanations": {
-        "a": "Requires nut.",
-        "b": "Correct, rivets act as fastener themselves.",
-        "c": "Requires nut and washer.",
+        "a": "Screwed joints require nuts or tapped holes.",
+        "b": "Rivets do not require additional accessories.",
+        "c": "Bolted joints require nuts and washers.",
         "d": "Incorrect."
       },
-      "correctAnswer": "b",
-      "difficulty": "beginner"
+      "correctAnswer": "b"
     },
     {
       "question": "This is not a case for type of rivet:",
@@ -44,16 +42,15 @@
         "d": "Tapered"
       },
       "explanations": {
-        "a": "Valid rivet type.",
-        "b": "Valid rivet type.",
-        "c": "Valid rivet type.",
-        "d": "Not a rivet type."
+        "a": "Solid rivets are common.",
+        "b": "Hollow rivets are used for light work.",
+        "c": "Blind rivets are widely used.",
+        "d": "Tapered is not a rivet type."
       },
-      "correctAnswer": "d",
-      "difficulty": "beginner"
+      "correctAnswer": "d"
     },
     {
-      "question": "The operation is not performed by:",
+      "question": "The operation is not be performed by:",
       "answers": {
         "a": "Hands",
         "b": "Chemical means",
@@ -61,13 +58,12 @@
         "d": "Use of robots"
       },
       "explanations": {
-        "a": "Manual riveting exists.",
-        "b": "Correct, riveting is not chemical.",
-        "c": "Common method.",
-        "d": "Robotic riveting exists."
+        "a": "Manual riveting is possible.",
+        "b": "Chemical means are not used in riveting.",
+        "c": "Mechanical riveting is common.",
+        "d": "Robotic riveting is used in automation."
       },
-      "correctAnswer": "b",
-      "difficulty": "beginner"
+      "correctAnswer": "b"
     },
     {
       "question": "Riveting may not be done by:",
@@ -78,13 +74,12 @@
         "d": "Using explosives in the cavity of the rivet"
       },
       "explanations": {
-        "a": "Roll riveting exists.",
-        "b": "Press riveting exists.",
-        "c": "Standard practice.",
-        "d": "Not a standard riveting method."
+        "a": "Rollers can be used in some processes.",
+        "b": "Press riveting is common.",
+        "c": "Special tools are standard.",
+        "d": "Explosives are not used in riveting."
       },
-      "correctAnswer": "d",
-      "difficulty": "intermediate"
+      "correctAnswer": "d"
     }
   ]
 }
