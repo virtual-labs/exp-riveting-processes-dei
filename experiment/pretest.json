@@ -2,38 +2,89 @@
   "version": 2.0,
   "questions": [
     {
-      "question": "This is a Sample Question 1?",
+      "question": "The type of rivet which is used to join the two plates without the need to make a through hole in the joining plates:",
       "answers": {
-        "a": "answer1",
-        "b": "answer2",
-        "c": "answer3",
-        "d": "answer4"
+        "a": "Solid rivet",
+        "b": "Split rivet",
+        "c": "Round rivet",
+        "d": "None of these"
       },
       "explanations": {
-        "a": "Explanation 1  <a href='www.google.com'>here</a>",
-        "b": "Explanation 2",
-        "c": "Explanation 2",
-        "d": "Explanation 2"
+        "a": "Solid rivets require through holes.",
+        "b": "Split rivets can be used without a full through hole.",
+        "c": "Round is a head shape, not a type.",
+        "d": "Incorrect."
+      },
+      "correctAnswer": "b",
+      "difficulty": "beginner"
+    },
+    {
+      "question": "Important feature of the rivet for which it is mostly used:",
+      "answers": {
+        "a": "Simplicity, dependability and low cost",
+        "b": "Strength, workability",
+        "c": "Hardness, durability",
+        "d": "None of these"
+      },
+      "explanations": {
+        "a": "Correct basic advantage of riveting.",
+        "b": "Secondary properties.",
+        "c": "Not primary reason.",
+        "d": "Incorrect."
       },
       "correctAnswer": "a",
       "difficulty": "beginner"
     },
     {
-      "question": "This is a Sample Question 2?",
+      "question": "The design related cause events does not include:",
       "answers": {
-        "a": "answer1",
-        "b": "answer2",
-        "c": "answer3",
-        "d": "answer4"
+        "a": "Problem of strength analysis",
+        "b": "Improper selection of the type of joint",
+        "c": "Improper material selection",
+        "d": "Proper size of rivets"
       },
       "explanations": {
-        "a": "Explanation 1  <a href='www.google.com'>here</a>",
-        "b": "Explanation 2",
-        "c": "Explanation 2",
-        "d": "Explanation 2"
+        "a": "Design-related issue.",
+        "b": "Design-related issue.",
+        "c": "Design-related issue.",
+        "d": "Proper sizing is not a cause of failure."
+      },
+      "correctAnswer": "d",
+      "difficulty": "intermediate"
+    },
+    {
+      "question": "The applications where strength, rigidity, as well as security against leakage should be considered:",
+      "answers": {
+        "a": "Pipes, Sheets",
+        "b": "Boiler drums, pressure vessels, gas tanks",
+        "c": "Doors",
+        "d": "All of these"
+      },
+      "explanations": {
+        "a": "Partial application.",
+        "b": "Correct high-strength and leak-proof application.",
+        "c": "Low load application.",
+        "d": "Incorrect because doors don’t need leak-proofing."
+      },
+      "correctAnswer": "b",
+      "difficulty": "beginner"
+    },
+    {
+      "question": "A riveted joint may not fail during its service life by:",
+      "answers": {
+        "a": "Tearing",
+        "b": "Shearing",
+        "c": "Bending",
+        "d": "Crushing"
+      },
+      "explanations": {
+        "a": "Common failure mode.",
+        "b": "Common failure mode.",
+        "c": "Not a typical failure mode of riveted joints.",
+        "d": "Common failure mode."
       },
       "correctAnswer": "c",
-      "difficulty": "beginner"
+      "difficulty": "intermediate"
     }
   ]
 }

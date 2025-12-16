@@ -2,38 +2,89 @@
   "version": 2.0,
   "questions": [
     {
-      "question": "This is a Sample Question 1?",
+      "question": "The method of inspection employed to analyse the strains in the part are:",
       "answers": {
-        "a": "answer1",
-        "b": "answer2",
-        "c": "answer3",
-        "d": "answer4"
+        "a": "Visual inspection",
+        "b": "Ultrasound",
+        "c": "X-ray",
+        "d": "Microwave"
       },
       "explanations": {
-        "a": "Explanation 1  <a href='www.google.com'>here</a>",
-        "b": "Explanation 2",
-        "c": "Explanation 2",
-        "d": "Explanation 2"
+        "a": "Only surface inspection.",
+        "b": "Correct method for internal strain and defects.",
+        "c": "Used for cracks, not strain measurement.",
+        "d": "Not used in inspection."
       },
-      "correctAnswer": "a",
+      "correctAnswer": "b",
+      "difficulty": "intermediate"
+    },
+    {
+      "question": "The joining technique which does not require accessories along with it:",
+      "answers": {
+        "a": "Screwed joint",
+        "b": "Rivet joint",
+        "c": "Bolted joint",
+        "d": "None of these"
+      },
+      "explanations": {
+        "a": "Requires nut.",
+        "b": "Correct, rivets act as fastener themselves.",
+        "c": "Requires nut and washer.",
+        "d": "Incorrect."
+      },
+      "correctAnswer": "b",
       "difficulty": "beginner"
     },
     {
-      "question": "This is a Sample Question 2?",
+      "question": "This is not a case for type of rivet:",
       "answers": {
-        "a": "answer1",
-        "b": "answer2",
-        "c": "answer3",
-        "d": "answer4"
+        "a": "Solid",
+        "b": "Hollow",
+        "c": "Blind",
+        "d": "Tapered"
       },
       "explanations": {
-        "a": "Explanation 1  <a href='www.google.com'>here</a>",
-        "b": "Explanation 2",
-        "c": "Explanation 2",
-        "d": "Explanation 2"
+        "a": "Valid rivet type.",
+        "b": "Valid rivet type.",
+        "c": "Valid rivet type.",
+        "d": "Not a rivet type."
       },
-      "correctAnswer": "c",
+      "correctAnswer": "d",
       "difficulty": "beginner"
+    },
+    {
+      "question": "The operation is not performed by:",
+      "answers": {
+        "a": "Hands",
+        "b": "Chemical means",
+        "c": "Mechanical means",
+        "d": "Use of robots"
+      },
+      "explanations": {
+        "a": "Manual riveting exists.",
+        "b": "Correct, riveting is not chemical.",
+        "c": "Common method.",
+        "d": "Robotic riveting exists."
+      },
+      "correctAnswer": "b",
+      "difficulty": "beginner"
+    },
+    {
+      "question": "Riveting may not be done by:",
+      "answers": {
+        "a": "Using rollers",
+        "b": "Using press",
+        "c": "Using special tools",
+        "d": "Using explosives in the cavity of the rivet"
+      },
+      "explanations": {
+        "a": "Roll riveting exists.",
+        "b": "Press riveting exists.",
+        "c": "Standard practice.",
+        "d": "Not a standard riveting method."
+      },
+      "correctAnswer": "d",
+      "difficulty": "intermediate"
     }
   ]
 }
