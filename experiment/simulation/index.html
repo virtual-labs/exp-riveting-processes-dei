@@ -1,13 +1,80 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-	<!-- Add CSS at the head of HTML file -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Simulation - Riveting Processes</title>
     <link rel="stylesheet" href="./css/main.css">
 </head>
 <body>
-		<!-- Your code goes here-->
+    <!-- Modal Overlay -->
+    <div id="modal-overlay" class="modal-overlay">
+        <div class="modal-content">
+            <h2 class="modal-title">Select Riveting Process</h2>
+            <p class="modal-description">Choose a riveting simulation type</p>
+            <div class="modal-options">
+                <button class="modal-button" onclick="selectSimulation('riveting-process')">
+                    <h3>Riveting Process</h3>
+                    <p>Basic riveting process simulation</p>
+                </button>
+                <button class="modal-button" onclick="selectSimulation('rivet-forming')">
+                    <h3>Rivet Forming</h3>
+                    <p>Rivet formation techniques and strain analysis</p>
+                </button>
+                <button class="modal-button" onclick="selectSimulation('split-riveting')">
+                    <h3>Split Riveting</h3>
+                    <p>Split rivet installation and kinematics</p>
+                </button>
+                <button class="modal-button" onclick="selectSimulation('flat-riveting')">
+                    <h3>Flat Riveting</h3>
+                    <p>Flat head rivet formation and analysis</p>
+                </button>
+            </div>
+        </div>
+    </div>
 
-	<!-- Add JS at the bottom of HTML file --> 
-        <script src="./js/main.js"></script>
+    <!-- Sidebar Navigation -->
+    <aside class="sidebar" id="sidebar" style="display: none;">
+        <nav class="nav-menu">
+            <button class="back-button" onclick="backToSelection()">← Back to Selection</button>
+            
+            <div class="nav-section" id="riveting-process-nav" style="display: none;">
+                <h3 class="nav-title">Riveting Process</h3>
+                <ul class="nav-list">
+                    <li><a href="riveting-process.html" class="nav-link">Riveting Process</a></li>
+                </ul>
+            </div>
+            
+            <div class="nav-section" id="rivet-forming-nav" style="display: none;">
+                <h3 class="nav-title">Rivet Forming</h3>
+                <ul class="nav-list">
+                    <li><a href="rivet-forming.html" class="nav-link">Rivet Forming</a></li>
+                    <li><a href="rivet-forming-strain.html" class="nav-link">Forming with Strain</a></li>
+                    <li><a href="rivet-forming-force.html" class="nav-link">Forming with Force</a></li>
+                </ul>
+            </div>
+            
+            <div class="nav-section" id="split-riveting-nav" style="display: none;">
+                <h3 class="nav-title">Split Riveting</h3>
+                <ul class="nav-list">
+                    <li><a href="split-riveting.html" class="nav-link">Split Riveting</a></li>
+                    <li><a href="split-riveting-kinematics.html" class="nav-link">Initial Kinematics</a></li>
+                    <li><a href="split-riveting-section.html" class="nav-link">Cut-Section</a></li>
+                </ul>
+            </div>
+            
+            <div class="nav-section" id="flat-riveting-nav" style="display: none;">
+                <h3 class="nav-title">Flat Riveting</h3>
+                <ul class="nav-list">
+                    <li><a href="flat-riveting.html" class="nav-link">Flat Riveting</a></li>
+                    <li><a href="flat-riveting-strain.html" class="nav-link">With Strain</a></li>
+                    <li><a href="flat-riveting-graph.html" class="nav-link">With Graph</a></li>
+                </ul>
+            </div>
+        </nav>
+    </aside>
+
+    <script src="./js/main.js"></script>
 </body>
 </html>
+

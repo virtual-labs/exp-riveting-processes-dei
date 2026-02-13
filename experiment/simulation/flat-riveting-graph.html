@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flat Riveting with Graph - Simulation</title>
+    <link rel="stylesheet" href="./css/main.css">
+</head>
+<body>
+    <!-- Sidebar Navigation -->
+    <aside class="sidebar">
+        <nav class="nav-menu">
+            <div class="nav-section">
+                <h3 class="nav-title">Flat Riveting</h3>
+                <ul class="nav-list">
+                    <li><a href="flat-riveting.html" class="nav-link">Flat Riveting</a></li>
+                    <li><a href="flat-riveting-strain.html" class="nav-link">With Strain</a></li>
+                    <li><a href="flat-riveting-graph.html" class="nav-link active">With Graph</a></li>
+                </ul>
+            </div>
+            
+            <button class="back-button" onclick="window.location.href='index.html'">← Back to Selection</button>
+        </nav>
+    </aside>
+
+    <!-- Main Content Area -->
+    <main class="main-content">
+        <!-- Header with Logo -->
+        <div class="content-header">
+            <img src="images/deiLogo.jpg" alt="DEI Logo" class="content-logo" />
+            <div class="header-text">
+                <h1 class="header-title">Virtual Lab Simulation Environment</h1>
+                <p class="header-subtitle">Riveting Processes</p>
+            </div>
+        </div>
+        
+        <h1 class="section-title">Flat Riveting with Graph</h1>
+        <div class="content-box">
+            <div class="video-container">
+                <video controls>
+                    <source src="Riveting/FlatCurveRiveting.mp4" type="video/mp4">
+                    Your browser does not support the video tag.
+                </video>
+            </div>
+            <br>
+            
+            <p>In the given simulation video the rivet is placed in its position and the punch is moved downward to press the rivet from the top. The right hand top side of the simulation video shows the strain generated during the deformation. At the end of the process the equivalent strain on the rivet rises upto 3.1827.</p>
+            
+            <p>The rivet is deformed severely from the top and hence the mechanical strength of the rivet is highly improved. The right hand bottom side of the video shows the variation of the force during the deformation.</p>
+        </div>
+    </main>
+
+    <script src="./js/main.js"></script>
+</body>
+</html>

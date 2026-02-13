@@ -2,38 +2,84 @@
   "version": 2.0,
   "questions": [
     {
-      "question": "This is a Sample Question 1?",
+      "question": "The type of rivet which is used to join the two plates without the need to make a through all the length of hole in the joining plates:",
       "answers": {
-        "a": "answer1",
-        "b": "answer2",
-        "c": "answer3",
-        "d": "answer4"
+        "a": "Solid rivet",
+        "b": "Split rivet",
+        "c": "Round rivet",
+        "d": "None of these"
       },
       "explanations": {
-        "a": "Explanation 1  <a href='www.google.com'>here</a>",
-        "b": "Explanation 2",
-        "c": "Explanation 2",
-        "d": "Explanation 2"
+        "a": "Solid rivets require through holes.",
+        "b": "Split rivets can be used without drilling full length holes.",
+        "c": "Round rivet is a head shape, not a type.",
+        "d": "Incorrect because split rivet satisfies the condition."
       },
-      "correctAnswer": "a",
-      "difficulty": "beginner"
+      "correctAnswer": "b"
     },
     {
-      "question": "This is a Sample Question 2?",
+      "question": "Important feature of the rivet for which it is mostly used:",
       "answers": {
-        "a": "answer1",
-        "b": "answer2",
-        "c": "answer3",
-        "d": "answer4"
+        "a": "Simplicity, dependability and low cost",
+        "b": "Strength, workability",
+        "c": "Hardness, durability",
+        "d": "None of these"
       },
       "explanations": {
-        "a": "Explanation 1  <a href='www.google.com'>here</a>",
-        "b": "Explanation 2",
-        "c": "Explanation 2",
-        "d": "Explanation 2"
+        "a": "Rivets are preferred due to simple construction and low cost.",
+        "b": "Strength is important but not the primary feature.",
+        "c": "Hardness is not a key requirement.",
+        "d": "Incorrect."
       },
-      "correctAnswer": "c",
-      "difficulty": "beginner"
+      "correctAnswer": "a"
+    },
+    {
+      "question": "The design related cause events does not include:",
+      "answers": {
+        "a": "Problem of strength analysis",
+        "b": "Improper selection of the type of joint",
+        "c": "Improper material selection",
+        "d": "Proper size of rivets"
+      },
+      "explanations": {
+        "a": "Strength analysis issues affect design.",
+        "b": "Wrong joint selection is a design fault.",
+        "c": "Material selection affects performance.",
+        "d": "Proper size does not cause failure."
+      },
+      "correctAnswer": "d"
+    },
+    {
+      "question": "The applications for the where strength, rigidity, as well as security against leakage should be considered:",
+      "answers": {
+        "a": "Pipes, Sheets",
+        "b": "Boiler drains, pressure vessels, gas tanks",
+        "c": "Doors",
+        "d": "All of these"
+      },
+      "explanations": {
+        "a": "Not all pipe joints need leak proofing.",
+        "b": "Such applications demand high strength and leak prevention.",
+        "c": "Doors do not require leak resistance.",
+        "d": "Incorrect because option B is most appropriate."
+      },
+      "correctAnswer": "b"
+    },
+    {
+      "question": "A riveted joint may not fail during its service life by:",
+      "answers": {
+        "a": "Tearing",
+        "b": "Shearing",
+        "c": "Bending",
+        "d": "Crushing"
+      },
+      "explanations": {
+        "a": "Tearing is a common failure mode.",
+        "b": "Shearing is a common failure mode.",
+        "c": "Bending is not a standard rivet failure mode.",
+        "d": "Crushing is a known failure."
+      },
+      "correctAnswer": "c"
     }
   ]
 }

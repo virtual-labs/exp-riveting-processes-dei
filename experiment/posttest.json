@@ -2,38 +2,84 @@
   "version": 2.0,
   "questions": [
     {
-      "question": "This is a Sample Question 1?",
+      "question": "The method of inspection employed to analyse the strains in the part are:",
       "answers": {
-        "a": "answer1",
-        "b": "answer2",
-        "c": "answer3",
-        "d": "answer4"
+        "a": "Visual inspection",
+        "b": "Ultrasound",
+        "c": "X-ray",
+        "d": "Microwave"
       },
       "explanations": {
-        "a": "Explanation 1  <a href='www.google.com'>here</a>",
-        "b": "Explanation 2",
-        "c": "Explanation 2",
-        "d": "Explanation 2"
+        "a": "Visual inspection cannot detect internal strain.",
+        "b": "Ultrasound is commonly used for internal defect and strain analysis.",
+        "c": "X-ray is mainly used for internal cracks.",
+        "d": "Microwave is not commonly used."
       },
-      "correctAnswer": "a",
-      "difficulty": "beginner"
+      "correctAnswer": "b"
     },
     {
-      "question": "This is a Sample Question 2?",
+      "question": "The joining technique which does not require accessories along with it:",
       "answers": {
-        "a": "answer1",
-        "b": "answer2",
-        "c": "answer3",
-        "d": "answer4"
+        "a": "Screwed joint",
+        "b": "Rivet joint",
+        "c": "Bolted Joint",
+        "d": "None of these"
       },
       "explanations": {
-        "a": "Explanation 1  <a href='www.google.com'>here</a>",
-        "b": "Explanation 2",
-        "c": "Explanation 2",
-        "d": "Explanation 2"
+        "a": "Screwed joints require nuts or tapped holes.",
+        "b": "Rivets do not require additional accessories.",
+        "c": "Bolted joints require nuts and washers.",
+        "d": "Incorrect."
       },
-      "correctAnswer": "c",
-      "difficulty": "beginner"
+      "correctAnswer": "b"
+    },
+    {
+      "question": "This is not a case for type of rivet:",
+      "answers": {
+        "a": "Solid",
+        "b": "Hollow",
+        "c": "Blind",
+        "d": "Tapered"
+      },
+      "explanations": {
+        "a": "Solid rivets are common.",
+        "b": "Hollow rivets are used for light work.",
+        "c": "Blind rivets are widely used.",
+        "d": "Tapered is not a rivet type."
+      },
+      "correctAnswer": "d"
+    },
+    {
+      "question": "The operation is not be performed by:",
+      "answers": {
+        "a": "Hands",
+        "b": "Chemical means",
+        "c": "Mechanical means",
+        "d": "Use of robots"
+      },
+      "explanations": {
+        "a": "Manual riveting is possible.",
+        "b": "Chemical means are not used in riveting.",
+        "c": "Mechanical riveting is common.",
+        "d": "Robotic riveting is used in automation."
+      },
+      "correctAnswer": "b"
+    },
+    {
+      "question": "Riveting may not be done by:",
+      "answers": {
+        "a": "Using rollers",
+        "b": "Using press",
+        "c": "Using special tools",
+        "d": "Using explosives in the cavity of the rivet"
+      },
+      "explanations": {
+        "a": "Rollers can be used in some processes.",
+        "b": "Press riveting is common.",
+        "c": "Special tools are standard.",
+        "d": "Explosives are not used in riveting."
+      },
+      "correctAnswer": "d"
     }
   ]
 }
