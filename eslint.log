@@ -1,0 +1,7 @@
+
+/home/runner/work/exp-riveting-processes-dei/exp-riveting-processes-dei/experiment/simulation/js/main.js
+   2:10  warning  'selectSimulation' is defined but never used  no-unused-vars
+  24:10  warning  'backToSelection' is defined but never used   no-unused-vars
+
+✖ 2 problems (0 errors, 2 warnings)
+
